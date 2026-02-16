@@ -1,26 +1,46 @@
-# LMS Recommendation Services
+# LMS Recommendation System
 
-This service handles recommendations for users based on their preferences and previous interactions.
+Hybrid recommendation system using:
 
-## Endpoints
+- Popularity-based ranking
+- Item-based Collaborative Filtering
+- Hybrid scoring (CF + Popularity)
 
-### Recommend Endpoint
+## Tech Stack
 
-- **GET /recommend**: Retrieve recommendations for a user.
+- Flask
+- SQLAlchemy
+- SQLite
+- NumPy
+- Scikit-learn
 
-To make a request to the recommend endpoint, ensure you have the necessary authentication token.
-
-### Screenshots
-
-Here are sample screenshots for reference:
-- ![recommend screenshot](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/e6ae7e7e2d0e858359e857e15f22bb0eac21dcc5/lms-recommendation-services/screenshots/recommend.png)
-
-## How to Install
+## Setup Instructions
 
 1. Clone the repository
-2. Install the necessary dependencies using `npm install`.
-3. Run the service using `npm start`. 
 
-## License
+git clone <your_repo_url>
 
-This project is licensed under the MIT License.
+2. Create virtual environment
+
+python -m venv venv
+
+3. Activate virtual environment
+
+Windows:
+venv\Scripts\activate
+
+4. Install dependencies
+
+pip install -r requirements.txt
+
+5. Run application
+
+python app.py
+
+## API Endpoints
+
+- /seed
+- /track
+- /recommend/<user_id>
+- /activities/<user_id>
+
