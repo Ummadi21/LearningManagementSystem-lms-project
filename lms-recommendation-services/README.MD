@@ -37,6 +37,22 @@ pip install -r requirements.txt
 
 python app.py
 
+
+## Application Output
+
+### 🏠 Home Endpoint
+![Home Output](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/2a0c8afd3eef994cdb1361fa610c96da95ba8044/lms-recommendation-services/screenshots/home.png)
+
+---
+
+### 🌱 Seed Database
+![Seed Output](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/2a0c8afd3eef994cdb1361fa610c96da95ba8044/lms-recommendation-services/screenshots/seed.png)
+
+---
+
+### 🎯 Recommendation Result
+![Recommendation Output](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/2a0c8afd3eef994cdb1361fa610c96da95ba8044/lms-recommendation-services/screenshots/recommend.png)
+
 ## API Endpoints
 
 - /seed
