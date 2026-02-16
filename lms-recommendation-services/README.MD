@@ -42,9 +42,9 @@ python app.py
 ## API Endpoints
 
 - /seed
-![image alt](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/b0c9bc1763f79d577da31e63175473293938574d/lms-recommendation-services/screenshots/home.png)
+![image alt](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/e6ae7e7e2d0e858359e857e15f22bb0eac21dcc5/lms-recommendation-services/screenshots/seed.png)
 - /track
 - /recommend/<user_id>
-![image alt](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/b0c9bc1763f79d577da31e63175473293938574d/lms-recommendation-services/screenshots/home.png)
+![image alt]https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/e6ae7e7e2d0e858359e857e15f22bb0eac21dcc5/lms-recommendation-services/screenshots/recommend.png)
 - /activities/<user_id>
 
