@@ -37,6 +37,8 @@ pip install -r requirements.txt
 
 python app.py
 
+![image alt](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/b0c9bc1763f79d577da31e63175473293938574d/lms-recommendation-services/screenshots/home.png)
+
 ## API Endpoints
 
 - /seed
