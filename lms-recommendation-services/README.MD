@@ -1,50 +1,26 @@
-# LMS Recommendation System
+# LMS Recommendation Services
 
-Hybrid recommendation system using:
+This service handles recommendations for users based on their preferences and previous interactions.
 
-- Popularity-based ranking
-- Item-based Collaborative Filtering
-- Hybrid scoring (CF + Popularity)
+## Endpoints
 
-## Tech Stack
+### Recommend Endpoint
 
-- Flask
-- SQLAlchemy
-- SQLite
-- NumPy
-- Scikit-learn
+- **GET /recommend**: Retrieve recommendations for a user.
 
-## Setup Instructions
+To make a request to the recommend endpoint, ensure you have the necessary authentication token.
+
+### Screenshots
+
+Here are sample screenshots for reference:
+- ![recommend screenshot](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/e6ae7e7e2d0e858359e857e15f22bb0eac21dcc5/lms-recommendation-services/screenshots/recommend.png)
+
+## How to Install
 
 1. Clone the repository
+2. Install the necessary dependencies using `npm install`.
+3. Run the service using `npm start`. 
 
-git clone <your_repo_url>
+## License
 
-2. Create virtual environment
-
-python -m venv venv
-
-3. Activate virtual environment
-
-Windows:
-venv\Scripts\activate
-
-4. Install dependencies
-
-pip install -r requirements.txt
-
-5. Run application
-
-python app.py
-
-![image alt](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/b0c9bc1763f79d577da31e63175473293938574d/lms-recommendation-services/screenshots/home.png)
-
-## API Endpoints
-
-- /seed
-![image alt](https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/e6ae7e7e2d0e858359e857e15f22bb0eac21dcc5/lms-recommendation-services/screenshots/seed.png)
-- /track
-- /recommend/<user_id>
-![image alt]https://github.com/Ummadi21/LearningManagementSystem-lms-project/blob/e6ae7e7e2d0e858359e857e15f22bb0eac21dcc5/lms-recommendation-services/screenshots/recommend.png)
-- /activities/<user_id>
-
+This project is licensed under the MIT License.
